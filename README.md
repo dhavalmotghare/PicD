@@ -1,6 +1,6 @@
 # PicD
 
-Clojure and ClojureScript web application for uploading and displaying pictures. Using Noir, Monger, MongoHQ, MongoDB. 
+A simple Clojure application for uploading and displaying pictures. Using Noir, Monger, MongoHQ, MongoDB, GridFS.
 
 ## Usage
 

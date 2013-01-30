@@ -1,0 +1,23 @@
+ul{
+list-style-type:none;
+}
+.img-loader {
+  display: none;
+}
+#flash-message{
+  position: absolute;
+  width:300px;
+  left:490px;
+  background-color: #262b30;
+  display: none;
+}
+#flash-message p{
+  text-align: center;
+  color:white;
+}
+#img-box{
+  text-align: center;
+}
+.lbl{
+  color:gray;
+}

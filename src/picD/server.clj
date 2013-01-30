@@ -7,9 +7,9 @@
 
 ; Edit these uri links with your user and password !
 (defn connect-to-db []
- (monger.core/connect-via-uri! "mongodb://dhaval:4957sjn123@linus.mongohq.com:10053/sandbox-db")
- ;(monger.core/connect!)
- ;(monger.core/set-db! (monger.core/get-db "picture-db"))
+ ;(monger.core/connect-via-uri! "mongodb://<username>:<password>@linus.mongohq.com:10003/picture-db")
+ (monger.core/connect!)
+ (monger.core/set-db! (monger.core/get-db "picture-db"))
 )
 
 (defn -main [& args]
